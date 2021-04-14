@@ -23,27 +23,14 @@
 </details>
 
 
-第一部分
-======================
-
-openwrt-packages — OpenWrt第三方全家桶软件库 [![](https://img.shields.io/badge/-全家桶软件库-green.svg)](#全家桶软件库-)
-======================
-
---编译脚本使用的第三方全家桶软件仓库 [![](https://img.shields.io/badge/-软件库地址-lightgrey.svg)](#软件库地址-)
--------------
-
-```bash
-https://github.com/MrH723/openwrt-packages
-```
-
--- 关于第三方全家桶软件仓库更新的说明 [![](https://img.shields.io/badge/-软件库更新说明-lightgrey.svg)](#软件库更新说明-)
+-- 关于第三方全家桶软件仓库更新的说明
 -------------
 
 - 每日两次自动拉取更新所有上游源码至上方软件仓库，所以此软件仓库永远都是最新的。
 - 云编译脚本会调用此仓库软件编译OpenWrt固件，每日一次编译。
 
-
-
+第一部分
+======================
 
 -- 关于本软件仓库的使用方法 [![](https://img.shields.io/badge/-软件库使用方法-lightgrey.svg)](#软件库使用方法-)
 -------------
@@ -60,20 +47,6 @@ https://github.com/MrH723/openwrt-packages
 
 - 我只是个小白搬运工，不保证所有插件都能使用，各位可以自行尝试。
 
-
-
-1. 先cd进package目录，然后执行
-```bash
- git clone https://github.com/MrH723/openwrt-packages
-```
-2. 或者添加下面代码到feeds.conf.default文件
-```bash
- src-git MrH723_packages https://github.com/MrH723/openwrt-packages
-```
-3. 先cd进package目录，然后执行
-```bash
- svn co https://github.com/MrH723/openwrt-packages/branches/packages
-```
 
 第二部分
 ======================
@@ -142,33 +115,7 @@ https://losaiiis-my.sharepoint.com/:f:/g/personal/hzj_ouuo_ml/Eu2LuOIwJpBMrNQd7t
 - 添加新设备 NANO-PI R4S 固件的编译
 - 添加新设备 小米 AX3600 固件的编译
 - 
-赞助 [![](https://img.shields.io/badge/-赞助项目-green.svg)](#赞助项目-)
-======================
-- 您要是觉得好用不错的话，不妨考虑赞助一下本项目。
 
-<img src="https://github.com/MrH723/Actions-OpenWrt/blob/main/img/alipay.jpg?raw=true" width="160" height="180" />
-
-我用过的机场 [![](https://img.shields.io/badge/-机场推荐-green.svg)](#机场推荐-)
-======================
-- iplc.vip, 最好的机场，没有之一，全IPLC节点，全1倍率，无倍率套路，用不完的剩余流量还可以折现，价格稍高，但绝对物超所值！
-
-[iplc.vip]  [![](https://img.shields.io/badge/全IPLC节点机场-iplc.vip-brightgreen.svg)](https://portal.iplc-j.pw/aff.php?aff=1228)
-
-<details>
-<summary>IPLC.vip 节点测速</summary>
-<img src="https://github.com/MrH723/Actions-OpenWrt/blob/main/img/speed.png?raw=true" width="890" hight="1080">
-   
-   *测试结果来自bigdongdong [![](https://img.shields.io/badge/bigdongdong-Github-orange.svg)](https://github.com/bigdongdongCLUB)
-</details>
-
-
-- 心阶，入门级别机场，也是我第一个使用的机场，性价比高，有时会挂。
-
-[心阶]  [![](https://img.shields.io/badge/心阶-xinjiecloud-brightgreen.svg)](https://www.xinjiecloud.vip/auth/register?code=e9yu)
-
-- 西部世界，不少的trojan节点，但是速度一般。有时会挂。想要使用trojan协议的朋友可以酌情斟酌购买
-
-[西部世界]  [![](https://img.shields.io/badge/西部世界-westworldss-brightgreen.svg)](https://xbnet.site/i/iv201020/KKPgMHE)
 
 鸣谢 [![](https://img.shields.io/badge/-鸣谢-green.svg)](#鸣谢-)
 ======================
