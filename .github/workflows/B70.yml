@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #============================================================
 
-name: B70.config
+name: Build HiWiFi B70 OpenWrt
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
