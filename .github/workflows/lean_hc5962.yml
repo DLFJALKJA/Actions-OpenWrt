@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #============================================================
 
-name: lean_hc5962
+name: lean_hc5962.config
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
@@ -34,11 +34,13 @@ on:
         default: 'false'
   schedule:
     - cron: 0 18 * * *
-  # - cron: 0 8 */5 * *
-  # - cron: 0 22,14 * * *
-  # 每天运行两次，在上午 6 点和晚上 22 点。
-  # - cron: 0 20 * * fri
-  # 每周五凌晨四点自动编译。
+  #  watch:
+  #    types: started
+  #  - cron: 0 8 */5 * *
+  #  - cron: 0 22,14 * * *
+  #  每天运行两次，在上午 6 点和晚上 22 点。
+  #  - cron: 0 20 * * fri
+  #  每周五凌晨四点自动编译。
 
 jobs:
   build:
@@ -140,15 +142,6 @@ jobs:
       with:
         name: OpenWrt_firmware${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: ${{ env.FIRMWARE }}
-        
-    - name: Upload firmware to Baidu && MS Onedrive
-      uses: SamKirkland/FTP-Deploy-Action@4.0.0
-      with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ${{ env.FIRMWARE }}/
-        server-dir: _hiwifi_b70/
 
     - name: Upload firmware to cowtransfer
       id: cowtransfer
@@ -188,8 +181,8 @@ jobs:
     - name: Delete workflow runs
       uses: GitRML/delete-workflow-runs@main
       with:
-        retain_days: 1
-        keep_minimum_runs: 3
+        retain_days: 3
+        keep_minimum_runs: 2
 
     - name: Remove old Releases
       uses: dev-drprasad/delete-older-releases@v0.1.0
