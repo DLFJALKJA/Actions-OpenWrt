@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #============================================================
 
-name: Build HiWiFi hc5962 OpenWrt
+name: Build HiWiFi HC5962 OpenWrt
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
