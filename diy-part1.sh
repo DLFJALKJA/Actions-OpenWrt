@@ -35,6 +35,6 @@ git clone https://github.com/sirpdboy/luci-theme-opentopd package/molun/luci-the
 #rm -rf ../lean/luci-theme-argon
 
 #===============================================================================================
-cp -f $GITHUB_WORKSPACE/mt7621_hiwifi_hc5962.dts ./target/linux/ramips/dts/
+#cp -f $GITHUB_WORKSPACE/mt7621_hiwifi_hc5962.dts ./target/linux/ramips/dts/
 #添加自定义分区，硬改扩容512MB的B70适用,添加编译更多插件的ramips-mt7621-hiwifi_hc5962-squashfs-factory.bin
 
