@@ -10,6 +10,9 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #====================================================================
 
+# Add a feed source
+#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
 # fw876/helloworld (Uncomment a feed source)
 
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
@@ -27,6 +30,7 @@ git clone https://github.com/tindy2013/openwrt-subconverter.git package/subconve
 git clone https://github.com/esirplayground/luci-app-LingTiGameAcc.git package/luci-app-LingTiGameAcc
 git clone https://github.com/esirplayground/LingTiGameAcc.git package/LingTiGameAcc
 git clone https://github.com/sirpdboy/luci-theme-opentopd package/molun/luci-theme-opentopd
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 #====================================================================
 
