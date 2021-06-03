@@ -1,5 +1,5 @@
 #https://github.com/HoldOnBro/Actions-OpenWrt/blob/master/.github/workflows/J4125.yml
-name: Build HiWiFi J4125 OpenWrt
+name: Build J4125 OpenWrt
 
 on:
   repository_dispatch:
