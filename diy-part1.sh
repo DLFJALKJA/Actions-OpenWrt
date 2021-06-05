@@ -11,9 +11,6 @@
 #====================================================================
 
 # Add a feed source
-#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-
-# fw876/helloworld (Uncomment a feed source)
 
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #sed -i 's/#src-git helloworld/src-git helloworld/g' ./feeds.conf.default
@@ -39,6 +36,3 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 #rm -rf ../lean/luci-theme-argon
 
 #===============================================================================================
-#cp -f $GITHUB_WORKSPACE/mt7621_hiwifi_hc5962.dts ./target/linux/ramips/dts/
-#添加自定义分区，硬改扩容512MB的B70适用,添加编译更多插件的ramips-mt7621-hiwifi_hc5962-squashfs-factory.bin
-
