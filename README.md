@@ -9,22 +9,6 @@
 - 每日两次自动拉取更新所有上游源码至上方软件仓库，所以此软件仓库永远都是最新的。
 - 云编译脚本会调用此仓库软件编译OpenWrt固件，每日一次编译。
 
-
--- 关于本软件仓库的使用方法 [![](https://img.shields.io/badge/-软件库使用方法-lightgrey.svg)](#软件库使用方法-)
--------------
-
-- 建议使用lean源码 [![](https://img.shields.io/badge/Lean-源码-orange.svg)](https://github.com/coolsnowwolf/lede)
-
-- 不建议 Fork (因为你Fork 过去不会自动更新）
-
-- 国内常用OpenWrt软件包源码合集，每天两次自动更新
-
-- packages 分支 供18.06 使用
-
-- packages-19.07 分支 供19.07 使用
-
-- 我只是个小白搬运工，不保证所有插件都能使用，各位可以自行尝试。
-
 第二部分
 ======================
 默认IP： 10.0.0.1  默认密码：password
