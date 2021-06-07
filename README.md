@@ -21,7 +21,11 @@ Actions-OpenWrt — 多设备固件自动云编译 [![](https://img.shields.io/b
 
 |    序号   |     平台+设备名称     |   编译状态+下载链接 |  
 | :-----------------: | :-------------: |:-----------------: | 
+| 1 |   [![](https://img.shields.io/badge/OpenWrt-x86%E5%A4%9A%E6%8B%A8%E6%9E%81%E7%AE%80%E7%89%88-lightgrey.svg)](https://github.com/MrH723/Actions-OpenWrt/actions?query=workflow%3A%22x86%E5%A4%9A%E6%8B%A8%E6%9E%81%E7%AE%80+OpenWrt%22)    | [![x86full OpenWrt](https://github.com/MrH723/Actions-OpenWrt/actions/workflows/x86full.yml/badge.svg)](https://github.com/MrH723/Actions-OpenWrt/actions/workflows/x86full.yml) |
+| 2 |   [![](https://img.shields.io/badge/OpenWrt-x86%E6%97%81%E8%B7%AF%E7%94%B1%E6%9E%81%E7%AE%80%E7%89%88-yellowgreen.svg)](https://github.com/MrH723/Actions-OpenWrt/actions?query=workflow%3A%22x86%E6%97%81%E8%B7%AF%E7%94%B1%E6%9E%81%E7%AE%80+OpenWrt%22)    | [![x86simple OpenWrt](https://github.com/MrH723/Actions-OpenWrt/actions/workflows/x86simple.yml/badge.svg)](https://github.com/MrH723/Actions-OpenWrt/actions/workflows/x86simple.yml) |
+| 3 |   [![](https://img.shields.io/badge/OpenWrt-%E6%9E%81%E8%B7%AF%E7%94%B1%20B70-yellowgreen.svg)](https://github.com/MrH723/Actions-OpenWrt/actions?query=workflow%3A%22Build+HiWiFi+B70+OpenWrt%22)    | [![Build HiWiFi B70 OpenWrt](https://github.com/MrH723/Actions-OpenWrt/workflows/Build%20HiWiFi%20B70%20OpenWrt/badge.svg)](https://github.com/MrH723/Actions-OpenWrt/actions?query=workflow%3A%22Build+HiWiFi+B70+OpenWrt%22) |
 
+| 4 |   [![](https://img.shields.io/badge/OpenWrt-XIAOMI--AX3600-yellowgreen)](https://github.com/MrH723/Actions-OpenWrt/actions/workflows/mi_ax3600.yml)    | [![Build Xiaomi AX3600 OpenWrt](https://github.com/MrH723/Actions-OpenWrt/actions/workflows/mi_ax3600.yml/badge.svg)](https://github.com/MrH723/Actions-OpenWrt/actions/workflows/mi_ax3600.yml) |
 
 
 -- 百度云盘下载 （测试）
