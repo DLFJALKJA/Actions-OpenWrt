@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #============================================================
 
-name: Build Xiaomi AX3600 OpenWrt
+name: Xiaomi AX3600
 
 on:
   repository_dispatch:
@@ -19,7 +19,7 @@ on:
         required: true
         default: 'false'
   schedule:
-    - cron: 0 22 * * *
+    - cron: 0 17 * * *
 #  watch:
 #    types: started
 
