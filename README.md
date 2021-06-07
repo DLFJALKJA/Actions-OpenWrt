@@ -21,21 +21,13 @@ Actions-OpenWrt — 多设备固件自动云编译 [![](https://img.shields.io/b
 
 |    序号   |     平台+设备名称     |   编译状态+下载链接 |  
 | :-----------------: | :-------------: |:-----------------: | 
-| 1 |   [![](https://img.shields.io/badge/OpenWrt-%E6%9E%81%E8%B7%AF%E7%94%B1%20HC5962-yellowgreen.svg)](https://github.com/insChow/Actions-OpenWrt/actions?query=workflow%3A%22Build+HiWiFi+HC5962+OpenWrt%22)    | [![Build HiWiFi HC5962 OpenWrt](https://github.com/insChow/Actions-OpenWrt/workflows/Build%20HiWiFi%20HC5962%20OpenWrt/badge.svg)](https://github.com/insChow/Actions-OpenWrt/actions?query=workflow%3A%22Build+HiWiFi+HC5962+OpenWrt%22) |
-| 2 |   [![](https://img.shields.io/badge/OpenWrt-x86%E5%A4%9A%E6%8B%A8%E6%9E%81%E7%AE%80%E7%89%88-lightgrey.svg)](https://github.com/insChow/Actions-OpenWrt/actions?query=workflow%3A%22x86%E5%A4%9A%E6%8B%A8%E6%9E%81%E7%AE%80+OpenWrt%22)    | [![x86full OpenWrt](https://github.com/insChow/Actions-OpenWrt/actions/workflows/x86full.yml/badge.svg)](https://github.com/insChow/Actions-OpenWrt/actions/workflows/x86full.yml) |
-| 3 |   [![](https://img.shields.io/badge/OpenWrt-x86%E6%97%81%E8%B7%AF%E7%94%B1%E6%9E%81%E7%AE%80%E7%89%88-yellowgreen.svg)](https://github.com/insChow/Actions-OpenWrt/actions?query=workflow%3A%22x86%E6%97%81%E8%B7%AF%E7%94%B1%E6%9E%81%E7%AE%80+OpenWrt%22)    | [![x86simple OpenWrt](https://github.com/insChow/Actions-OpenWrt/actions/workflows/x86simple.yml/badge.svg)](https://github.com/insChow/Actions-OpenWrt/actions/workflows/x86simple.yml) |
-| 4 |   [![](https://img.shields.io/badge/OpenWrt-XIAOMI--AX3600-yellowgreen)](https://github.com/insChow/Actions-OpenWrt/actions/workflows/mi_ax3600.yml)    | [![Build Xiaomi AX3600 OpenWrt](https://github.com/insChow/Actions-OpenWrt/actions/workflows/mi_ax3600.yml/badge.svg)](https://github.com/insChow/Actions-OpenWrt/actions/workflows/mi_ax3600.yml) |
+
 
 
 -- 百度云盘下载 （测试）
 -------------
 
 链接: https://pan.baidu.com/s/1e89hoFkzR3kBsf7oHlTdKw 提取码: ctw4 
-
--- 微软 OneDrive 下载地址 （测试）
--------------
-
-https://losaiiis-my.sharepoint.com/:f:/g/personal/hzj_ouuo_ml/Eu2LuOIwJpBMrNQd7tst1hsBZj8SujgtZn_QjaXIT31y7Q?e=jDXq0x
 
 -- 关于自动编译固件的说明 [![](https://img.shields.io/badge/-自动编译说明-lightgrey.svg)](#自动编译说明-)
 -------------
