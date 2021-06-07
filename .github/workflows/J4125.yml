@@ -2,17 +2,21 @@ name: J4125
 
 on:
   repository_dispatch:
-#  release:
-#    types: published
-  push:
-    branches:
-      - master
-    paths:
-      - 'config/J4125.config'
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
   schedule:
-    - cron: 0 17 * * *
-  # watch:
-  #   types: started
+    - cron: 0 18 * * *
+  #  watch:
+  #    types: started
+  #  - cron: 0 8 */5 * *
+  #  - cron: 0 22,14 * * *
+  #  每天运行两次，在上午 6 点和晚上 22 点。
+  #  - cron: 0 20 * * fri
+  #  每周五凌晨四点自动编译。
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
