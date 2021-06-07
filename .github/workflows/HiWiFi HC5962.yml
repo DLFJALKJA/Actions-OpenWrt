@@ -23,6 +23,8 @@ env:
   UPLOAD_WETRANSFER: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
+  FILE_NAME: HiWiFi HC5962
+  PRODUCT_NAME: HiWiFi HC5962
 
 on:
   repository_dispatch:
