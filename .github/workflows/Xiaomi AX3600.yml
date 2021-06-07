@@ -36,8 +36,8 @@ env:
   UPLOAD_WETRANSFER: true
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
-  FILE_NAME: x86_64
-  PRODUCT_NAME: x86_64
+  FILE_NAME: Xiaomi AX3600
+  PRODUCT_NAME: Xiaomi AX3600
 
 jobs:
   build:
